@@ -3,10 +3,14 @@ kind: Component
 metadata:
   name: Portifolio
   description: Portifolio da Gi
+  tags:
+    - portfolio
+    - website
+    - react
+    - frontend
   annotations:
     backstage.io/techdocs-ref: dir:.
     github.com/project-slug: anadevti/app-portifolio2
-    pagerduty.com/service-id: P26ZDZH
 spec:
   type: website
   lifecycle: production
